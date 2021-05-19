@@ -1,0 +1,98 @@
+body, html {
+  height: 100%;
+}
+
+.bg {
+    background-image:url("images/i5.jpg");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0%;
+  left:0%;
+}
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #001415;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ffcd67;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #001415;  /* creates padding around scroll thumb */
+}
+
+
+
+
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+background-color: #111;
+
+}
+
+.right {
+  right: 0;
+  
+    background-image:url("images/i4.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+@font-face {
+  font-family: ft1;
+  src: url(Base 02.ttf)format("truetype");
+}
+
+
+
+.topnav {
+  overflow: hidden;
+ /*font-family: 'Mukta', sans-serif;*/
+ font-family: 'Anton', sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav-right {
+  float: right;
+}
